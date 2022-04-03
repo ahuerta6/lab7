@@ -5,14 +5,7 @@ function init(){
   var d3 = document.getElementById('textoutput');
   d2.addEventListener('onclick', function(){
     alert(d1.value);
-    d1.innerHTML = ''
+    d3.innerHTML = d1;
   });
-  d1.attachEvent('onclick', modifyText);
- 
- 
- 
- 
- 
- 
 }
  window.addEventListener('load', init);
