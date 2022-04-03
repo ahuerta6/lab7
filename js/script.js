@@ -2,8 +2,11 @@ function init(){
  //add your javascrip between these two lines of code
   var d1 = document.getElementById('entryinput');
   var d2 = document.getElementById('entrybutton');
-  alert(d1.value);
-  d2.addEventListener('click', myEventFunction);
+  var d3 = document.getElementById('textoutput');
+  d2.addEventListener('onclick', function(){
+    alert(d1.value);
+    d1.innerHTML = ''
+  });
   d1.attachEvent('onclick', modifyText);
  
  
