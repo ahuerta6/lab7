@@ -5,7 +5,7 @@ function init(){
   var d3 = document.getElementById('textoutput');
   d2.addEventListener('click', function(){
     alert(d1.value);
-    d3.innerHTML = d1;
+    d3.innerHTML = d1.value;
   });
 }
  window.addEventListener('load', init);
