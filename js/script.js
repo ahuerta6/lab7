@@ -3,7 +3,7 @@ function init(){
   var d1 = document.getElementById('entryinput');
   var d2 = document.getElementById('entrybutton');
   var d3 = document.getElementById('textoutput');
-  var n = document.getElementById('na');
+  var n = document.createElement;
   d2.addEventListener('click', function(){
     n.innerHTML = "Avery Huerta:";
     alert(n.value, d1.value);
