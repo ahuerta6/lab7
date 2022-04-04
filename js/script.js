@@ -3,7 +3,7 @@ function init(){
   var d1 = document.getElementById('entryinput');
   var d2 = document.getElementById('entrybutton');
   var d3 = document.getElementById('textoutput');
-  var name = document.getElementsById("Na");
+  var name = document.getElementById("Na");
   d2.addEventListener('click', function(){
     alert(name.value + ": " + d1.value);
     d3.innerHTML = d1.value;
