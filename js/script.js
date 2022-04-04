@@ -5,7 +5,7 @@ function init(){
   var d3 = document.getElementById('textoutput');
   d2.addEventListener('click', function(){
 
-    alert(d1.append('Avery Huerta') + ":" + d1.value);
+    alert("Avery Huerta: " + d1.value);
     d3.innerHTML = d1.value;
   });
 }
